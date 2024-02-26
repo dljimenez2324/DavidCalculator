@@ -12,6 +12,6 @@
 <br><br>
 
 <b>Resources:</b> <br>
-<b>GitHub:</b>  <br>
+<b>GitHub:</b> https://github.com/dljimenez2324/DavidCalculator <br>
 
 
