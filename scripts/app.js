@@ -121,10 +121,12 @@ btnClear.addEventListener("click", function(){
 
 // ADDING BACKSPACE BUTTON HERE
 // This will work for all situations except after pressing the equal size similar to how a regular calculator works
+// Remove the last character from the string using this syntax array.slice(start, end) for start parameter we will use 0 for start of the word and -1 to select the end of the word.   Slice works for words and arrays and will not change the original array / word except the last character for our situation
+        // see examples from https://www.w3schools.com/jsref/jsref_slice_array.asp
 btnBackspace.addEventListener("click", function(){
     // Check if there is anything to backspace
     if (stringNumber.length > 0) {
-        // Remove the last character from the string using this syntax array.slice(start, end) for start parameter we will use 0 for start of the word and -1 to select the end of the word.   Slice works for words and arrays and will not change the original array / word except the last character for our situation
+        // remove last character
         stringNumber = stringNumber.slice(0, -1);
         updateDisplay();
     }

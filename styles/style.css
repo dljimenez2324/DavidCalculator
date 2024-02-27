@@ -3,9 +3,10 @@ body {
     overflow-x: hidden;
 }
 
-.color {
+.colorTitle {
     color: black;
     font-weight: bold;
+    font-size: 250%;
 }
 
 .col {
@@ -16,6 +17,7 @@ body {
     background-color: antiquewhite;
     border: 2px solid black;
     padding: 1rem;
+    padding-bottom:0.1rem;
     border-radius: 15px;
 }
 
