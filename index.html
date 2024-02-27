@@ -12,12 +12,12 @@
     />
     <link href="./styles/style.css" rel="stylesheet"/>
   </head>
-  <body>
+  <body id="myPage">
     
     <div class="con">
         <div class="row">
             <div class="col text-center">
-                <h1>(╯°□°)╯︵ ┻━┻ ɹoʇɐlnɔlɐƆ</h1>
+                <h1 class="color my-3">(╯°□°)╯︵ ┻━┻ ɹoʇɐlnɔlɐƆ</h1>
             </div>
         </div>
         <div class="row d-flex justify-content-center">
@@ -87,6 +87,24 @@
                     <button id="btnPlus" type="button" class="btn btn-success">+</button>
                   </div>
               </div>
+
+              <!-- Backspace added here -->
+                <div class="row my-3">
+                  <div class="col">
+                    <button id="btnBackspace" type="button" class="btn btn-warning">⌫</button>
+                  </div>
+                  <div class="col">
+                    <button id="btn0Hidden" type="button" class="btn btn-secondary" hidden>0</button>
+                  </div>
+                  <div class="col">
+                    <button id="btnEqualHidden" type="button" class="btn btn-primary" hidden>=</button>
+                  </div>
+                  <div class="col">
+                    <button id="btnPlusHidden" type="button" class="btn btn-success" hidden>+</button>
+                  </div>
+              </div>
+
+
             </div>
           </div>
     </div>

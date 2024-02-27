@@ -1,9 +1,10 @@
 body {
     background-color: cornflowerblue;
+    overflow-x: hidden;
 }
 
 .color {
-    color: blue;
+    color: black;
     font-weight: bold;
 }
 
@@ -14,22 +15,27 @@ body {
 .hisCard {
     background-color: antiquewhite;
     border: 2px solid black;
-    padding: 15px;
+    padding: 1rem;
     border-radius: 15px;
 }
 
 .displayArea {
     background-color: lightgray;
-    margin: 20px;
+    margin: 1.25rem;
     margin-top: 0;
     border-radius: 10px;
-    padding:10px
+    padding:1.25rem;
     
 }
 
 .btn {
-    padding: 30px;
+    padding: 1rem;
     /* font-weight: bold; */
     font-size:x-large;
 }
 
+#btnBackspace {
+    padding: .5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
