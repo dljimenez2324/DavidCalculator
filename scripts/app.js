@@ -7,6 +7,8 @@
 // we will need an event listener  like  btnBackspace.addEventListener("click", function(){ backspaceCalc(); }
 // we will need a function         function backspaceCalc(){}
 
+// See if can add squared and square root functions
+
 let btn0 = document.getElementById("btn0");
 let btn1 = document.getElementById("btn1");
 let btn2 = document.getElementById("btn2");
@@ -25,9 +27,10 @@ let btnDivide = document.getElementById("btnDivide");
 let btnEqual = document.getElementById("btnEqual");
 let btnClear = document.getElementById("btnClear");
 
-// added backspace button
+// added backspace button  square button and square root button
 let btnBackspace = document.getElementById("btnBackspace");
-
+let btnSquare = document.getElementById("btnSquare");
+let btnSquareRoot = document.getElementById("btnSquareRoot");
 
 let displayArea = document.getElementById("displayArea");
 let myPage = document.getElementById("myPage");
@@ -122,7 +125,7 @@ btnClear.addEventListener("click", function(){
 // ADDING BACKSPACE BUTTON HERE
 // This will work for all situations except after pressing the equal size similar to how a regular calculator works
 // Remove the last character from the string using this syntax array.slice(start, end) for start parameter we will use 0 for start of the word and -1 to select the end of the word.   Slice works for words and arrays and will not change the original array / word except the last character for our situation
-        // see examples from https://www.w3schools.com/jsref/jsref_slice_array.asp
+// see examples from https://www.w3schools.com/jsref/jsref_slice_array.asp
 btnBackspace.addEventListener("click", function(){
     // Check if there is anything to backspace
     if (stringNumber.length > 0) {
@@ -132,7 +135,9 @@ btnBackspace.addEventListener("click", function(){
     }
 });
 
+// ADDing square event listener and doMath operation
 
+// ADDing square root listener and function using Math.sqrt()
 
 function doMath(){
     num2 = Number(stringNumber);
@@ -148,8 +153,10 @@ function doMath(){
             result = num1 * num2;
             break;
         case "÷":
-            result = num1 / num2
-            break;            
+            result = num1 / num2;
+            break;   
+        // case "x²":
+        //     result =  ;
     }
 }
 
