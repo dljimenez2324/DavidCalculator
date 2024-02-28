@@ -1,7 +1,16 @@
 body {
     background-color: cornflowerblue;
     overflow-x: hidden;
+    font-family: 'Fredericka the Great', serif;
+    font-size: large;
+    font-weight: bold;
 }
+
+/* .bgImage {
+    background-image: url("/media/gameboy.png");
+    background-repeat: no-repeat;
+
+} */
 
 .colorTitle {
     color: black;
@@ -27,17 +36,18 @@ body {
     margin-top: 0;
     border-radius: 10px;
     padding:1.25rem;
-    
+    font-size: xx-large;
 }
 
 .btn {
     padding: 1rem;
     /* font-weight: bold; */
     font-size:x-large;
+    border-radius: 2rem;
 }
 
 #btnBackspace {
-    padding: .5rem;
+    padding: .8rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }

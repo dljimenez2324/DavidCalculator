@@ -1,3 +1,4 @@
+
 //  ADD BACK BUTTON
 // Go to line  120  for backspace code
 
@@ -29,8 +30,9 @@ let btnClear = document.getElementById("btnClear");
 
 // added backspace button  square button and square root button
 let btnBackspace = document.getElementById("btnBackspace");
-let btnSquare = document.getElementById("btnSquare");
-let btnSquareRoot = document.getElementById("btnSquareRoot");
+
+//let btnSquare = document.getElementById("btnSquare");
+//let btnSquareRoot = document.getElementById("btnSquareRoot");
 
 let displayArea = document.getElementById("displayArea");
 let myPage = document.getElementById("myPage");
@@ -157,6 +159,7 @@ function doMath(){
             break;   
         // case "x²":
         //     result =  ;
+        //  after conversation with instructors
     }
 }
 
