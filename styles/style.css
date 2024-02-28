@@ -40,10 +40,13 @@ body {
 }
 
 .btn {
+    display: flex;
     padding: 1rem;
     /* font-weight: bold; */
     font-size:x-large;
     border-radius: 2rem;
+    height: 3rem;
+    align-items: center;
 }
 
 #btnBackspace {
