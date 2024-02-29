@@ -6,37 +6,57 @@ body {
     font-weight: bold;
 }
 
-/* .bgImage {
-    background-image: url("/media/gameboy.png");
+.bgImage {
+    background-image: url("/media/4883373.jpg");
     background-repeat: no-repeat;
-
-} */
+    background-size: cover;
+    min-height: 100vh;
+}
 
 .colorTitle {
-    color: black;
+    color: White;
     font-weight: bold;
-    font-size: 250%;
+    font-size: 280%;
+    /* font-family: 'Londrina Outline', sans-serif; */
+    /* typically adds black border around a base text color but for this font it paints the inside due to the font type leaving a tiny white border */
+    -webkit-text-stroke: 0.1px black;
 }
 
 .col {
     display: flex;
     justify-content: center;
 }
+
+.rowStyle {
+    background-color: chocolate;
+}
+
 .hisCard {
     background-color: antiquewhite;
-    border: 2px solid black;
+    border: 1rem solid black;
     padding: 1rem;
     padding-bottom:0.1rem;
-    border-radius: 15px;
+    border-radius: 2rem;
+}
+
+.boxMargin {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.disRadius {
+    border-radius: 1rem;
+    
 }
 
 .displayArea {
     background-color: lightgray;
     margin: 1.25rem;
     margin-top: 0;
-    border-radius: 10px;
+    border-radius: 1rem;
     padding:1.25rem;
     font-size: xx-large;
+    border: 1px solid black;
 }
 
 .btn {
@@ -45,8 +65,9 @@ body {
     /* font-weight: bold; */
     font-size:x-large;
     border-radius: 2rem;
-    height: 3rem;
+    height: 2.9rem;
     align-items: center;
+    border: 1px solid black;
 }
 
 #btnBackspace {

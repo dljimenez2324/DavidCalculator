@@ -12,18 +12,19 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Jacquarda+Bastarda+9&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Jacquarda+Bastarda+9&family=Londrina+Outline&display=swap" rel="stylesheet">
     <link href="./styles/style.css" rel="stylesheet"/>
   </head>
-  <body id="myPage">
+  <body id="myPage" class="bgImage">
     
-    <div class="con bgImage">
+    <div class="con">
         <div class="row">
             <div class="col text-center">
-                <h1 class="colorTitle my-3">(╯°□°)╯︵ ┻━┻ ɹoʇɐlnɔlɐƆ</h1>
+                <h1 class="colorTitle my-3">Calculator</h1>
+                <!-- (╯°□°)╯︵ ┻━┻ ɹoʇɐlnɔlɐƆ -->
             </div>
         </div>
-        <div class="row d-flex justify-content-center ">
+        <div class="row d-flex justify-content-center boxMargin">
             <div class="col-md-5">
               <div class="hisCard container">
                 <div class="row">
@@ -96,6 +97,8 @@
                   <div class="col">
                     <button id="btnBackspace" type="button" class="btn btn-warning">⌫</button>
                   </div>
+
+                  <!-- other buttons below hidden to keep the layout consistent and possible use later -->
                   <div class="col">
                     <button id="btnSquare" type="button" class="btn btn-success" hidden>x²</button>
                   </div>

@@ -28,8 +28,9 @@ let btnDivide = document.getElementById("btnDivide");
 let btnEqual = document.getElementById("btnEqual");
 let btnClear = document.getElementById("btnClear");
 
-// added backspace button  square button and square root button
+// added backspace button   not included (square button and square root button)
 let btnBackspace = document.getElementById("btnBackspace");
+
 
 //let btnSquare = document.getElementById("btnSquare");
 //let btnSquareRoot = document.getElementById("btnSquareRoot");
