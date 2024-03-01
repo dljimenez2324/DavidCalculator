@@ -41,16 +41,12 @@ body {
     border-radius: 2rem;
 }
 
-
+/* Make the Calculator not flex too far sideways */
 .boxMargin {
     margin-left: 4rem;
     margin-right: 4rem;
 }
 
-.disRadius {
-    border-radius: 1rem;
-    
-}
 
 .displayArea {
     background-color: lightgray;
@@ -67,8 +63,8 @@ body {
 .btn {
     display: flex;
     padding: 1rem;
-    /* font-weight: bold; */
     font-size:x-large;
+    /* Rounded buttons */
     border-radius: 2rem;
     height: 2.9rem;
     align-items: center;
@@ -80,3 +76,11 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+
+
+/* unused code below */
+
+/* .disRadius {
+    border-radius: 1rem;  
+} */

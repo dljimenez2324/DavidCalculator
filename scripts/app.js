@@ -1,5 +1,5 @@
 
-//  ADD BACK BUTTON
+// ADD BACK BUTTON
 // Go to line  120  for backspace code
 
 // See below for pseudocode for backspace
@@ -49,8 +49,6 @@ let result = 0;
 // lets test our buttons to see if they work
 // The following function dictates the behavior of our number keys
 function numberPress(btnNum){
-    // used below to see if our code and buttons are linked 
-    // alert("You pressed the " + btnNum + " key!");
 
     // check if we completed a number
     if(result !=0){
@@ -70,7 +68,7 @@ function opPress(op){
     // if our result is NOT 0, we can assume we are trying to continue doing math with our current result as the first number
     if(result !=0){
         operatorSaved = op;
-        num1 = result;  // this converts stringnumber to a number
+        num1 = result;  // this converts stringnumber to a number implicitly since we defined num1 as a number by initializing it as a number
         stringNumber = "";
         result = 0;
     }
@@ -122,7 +120,6 @@ function resetCalc(){
 // clearing button
 btnClear.addEventListener("click", function(){
     resetCalc();
-    console.log(stringNumber);
 });
 
 
@@ -139,9 +136,9 @@ btnBackspace.addEventListener("click", function(){
     }
 });
 
-// ADDing square event listener and doMath operation
+// ADDing square event listener and doMath operation   DO NOT ADD YET
 
-// ADDing square root listener and function using Math.sqrt()
+// ADDing square root listener and function using Math.sqrt()   DO NOT ADD YET
 
 function doMath(){
     num2 = Number(stringNumber);
