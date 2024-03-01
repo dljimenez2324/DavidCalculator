@@ -58,6 +58,9 @@ body {
     border: 1px solid black;
     /* Neos suggestion to make a static view height so when its cleared it doesnt make the display area shorter  "Quality of Life" */
     height: 5.5rem;
+    justify-content: end;
+    flex-wrap: wrap;
+    
 }
 
 .btn {
