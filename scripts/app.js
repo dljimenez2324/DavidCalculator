@@ -122,6 +122,7 @@ function resetCalc(){
 // clearing button
 btnClear.addEventListener("click", function(){
     resetCalc();
+    console.log(stringNumber);
 });
 
 
@@ -168,6 +169,12 @@ function doMath(){
 btnEqual.addEventListener("click", function(){
     doMath();
     displayArea.innerText = result;
+    
+    // Neo and I found that if we did not add the code below, our string number would continue to append onto the calculation that was just done  ex 12-12 = 0  ----> 12-1235   35 would be added to the end as shown
+    stringNumber = "";
+    operatorSaved = "";
+    num1 = 0;
+    num2 = 0;
 });
 
 // return press down for equals event listener
@@ -175,7 +182,6 @@ myPage.addEventListener("keypress", function(event){
     if(event.key = "Enter"){
         doMath();
         displayArea.innerText = result;
-
     }
 });
 

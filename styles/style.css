@@ -1,5 +1,8 @@
+/* Descriptive notes will be above the styles */
+
 body {
     background-color: cornflowerblue;
+    /* To remove side scrolling bar */
     overflow-x: hidden;
     font-family: 'Fredericka the Great', serif;
     font-size: large;
@@ -10,7 +13,7 @@ body {
     background-image: url("/media/4883373.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 100vh;  
 }
 
 .colorTitle {
@@ -18,19 +21,18 @@ body {
     font-weight: bold;
     font-size: 280%;
     /* font-family: 'Londrina Outline', sans-serif; */
-    /* typically adds black border around a base text color but for this font it paints the inside due to the font type leaving a tiny white border */
+    /* typically adds black border around a base text color but for this font it paints the inside due to the font type... So it is leaving a tiny white border instead....  snippet I used was from https://www.youtube.com/shorts/Hx1p1vQeHCg  */
     -webkit-text-stroke: 0.1px black;
 }
 
+/* all columns will have this property which will easily center buttons within their columns */
 .col {
     display: flex;
     justify-content: center;
 }
 
-.rowStyle {
-    background-color: chocolate;
-}
-
+/* Style for the calculator's container body */
+/* Notice the border-radius should be around double of the border in order to produce round buttons !!MATH!! */
 .hisCard {
     background-color: antiquewhite;
     border: 1rem solid black;
@@ -38,6 +40,7 @@ body {
     padding-bottom:0.1rem;
     border-radius: 2rem;
 }
+
 
 .boxMargin {
     margin-left: 4rem;
@@ -57,6 +60,8 @@ body {
     padding:1.25rem;
     font-size: xx-large;
     border: 1px solid black;
+    /* Neos suggestion to make a static view height so when its cleared it doesnt make the display area shorter  "Quality of Life" */
+    height: 5.5rem;
 }
 
 .btn {
