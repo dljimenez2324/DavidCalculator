@@ -16,4 +16,7 @@
 
 
 Peer Reviewed by Neo See <br>
-Comments: Found an issue where after pressing the equal button and then pressing a number key will append the pressed number to the string number. Desgin idea to make the display area box larger so it doesn't change when the number is pressed.
+Comments: Found an issue where after pressing the equal button and then pressing a number key will append the pressed number to the string number. Desgin idea to make the display area box larger so it doesn't change when the number is pressed. <br> <br>
+
+David Response: <br>
+Modifications made to include Neo's review
